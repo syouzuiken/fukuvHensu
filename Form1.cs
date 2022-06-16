@@ -50,6 +50,7 @@ namespace fukuvHensu
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("章瑞謙");
+            label1.Visible = false;
         }
         
     }
