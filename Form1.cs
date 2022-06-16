@@ -21,26 +21,26 @@ namespace fukuvHensu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            vx += -5;
-            vy += 0;
+            vx = -5;
+            vy = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            vx += 0; 
-            vy += -5; 
+            vx = 0; 
+            vy = -5; 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            vx += 5;
-            vy += 0;
+            vx = 5;
+            vy = 0;
         }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            vx += 0;
-            vy += 5;
+            vx = 0;
+            vy = 5;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
